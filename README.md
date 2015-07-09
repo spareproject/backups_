@@ -23,3 +23,4 @@ dropped minimal and went bloat because im apperently getting radio foo delivered
 
 meh pretty much backups incase i loose everything moving raw images and keys over 
 
+every passwords getting debug mode set to password far to many gnupg dirs kicking around to not have something easy for dev
