@@ -1,0 +1,138 @@
+#!/bin/bash
+#############################################################################################################################################################################################################
+#set -e
+#set -u
+#set -o pipefail
+#############################################################################################################################################################################################################
+declare -A GET
+declare -A POST
+declare -A COOKIE
+#############################################################################################################################################################################################################
+function input {
+if [[ ! -z ${HTTP_COOKIE} ]];then
+  HTTP_COOKIE+=";";KEY="";CACHE=""
+  for i in $(grep -o . <<<${HTTP_COOKIE});do
+    if [[ "${i}" == "=" ]];then KEY=${CACHE};CACHE=""
+    elif [[ "$i" == ";" ]];then COOKIE[${KEY}]=${CACHE};CACHE=""
+    else CACHE+=${i};fi
+  done
+fi
+#######################################################################################################
+if [[ ${REQUEST_METHOD} == "POST" && ${CONTENT_TYPE} == "application/x-www-form-urlencoded" ]];then
+  read -n ${CONTENT_LENGTH} -r POST_
+  POST_+="&";KEY="";CACHE=""
+  for i in $(grep -o . <<<${POST_});do
+    if [[ "${i}" == "=" ]];then KEY=${CACHE};CACHE=""
+    elif [[ "$i" == "&" ]];then POST[${KEY}]=${CACHE};CACHE=""
+    else CACHE+=${i}; fi
+  done
+#######################################################################################################
+elif [[ ${REQUEST_METHOD} == "POST" && $(grep "multipart/form-data" <<< ${CONTENT_TYPE}) ]];then
+SEPERATOR=$(sed -r 's/.{30}//' <<<${CONTENT_TYPE})
+TEMP=$(</dev/stdin)
+#######################################################################################################
+elif [[ ${REQUEST_METHOD} == "POST" && ${CONTENT_TYPE} == "text/plain" ]];then
+TEMP=$(</dev/stdin)
+#######################################################################################################
+elif [[ ! -z ${QUERY_STRING} ]];then
+  QUERY_STRING+="&";KEY="";CACHE=""
+  for i in $(grep -o . <<<${QUERY_STRING}); do
+    if [[ "${i}" == "=" ]];then KEY=${CACHE};CACHE=""
+    elif [[ "$i" == "&" ]];then GET[${KEY}]=${CACHE};CACHE=""
+    else CACHE+=${i};fi
+  done
+  unset QUERY_STRING
+fi
+}
+#############################################################################################################################################################################################################
+function session {
+USERNAME="47fc19cce2b42cfcd4f5937d7e6752dcf75c4f779f6722a35660ef501c8d28e09ba716ca6256634fd41717501ec402d5a4d34fe9f99fcec13b049a8037ba4b24"
+PASSWORD="9151440965cf9c5e07f81eee6241c042a7b78e9bb2dd4f928a8f6da5e369cdffdd2b70c70663ee30d02115731d35f1ece5aad9b362aaa9850efa99e3d197212a"
+sqlite="/home/nginx/server/template/database/webserver.sqlite"
+######################################################################################################
+#
+# login...      username / password
+# 2fa...        string
+# logout...     
+# register...   
+# account...    request access to account settings... timed not associated with cookies
+# cookie...     session,auth,account
+#
+
+#sqlite3 "$sqlite" <<< "INSERT INTO user(username,password,email,pubkey,fingerprint) VALUES('test','test','test','test','test',0,0,0,0);"
+#if [[ ! ${COOKIE[session]} || ${COOKIE[session]} == "logout" ]];then
+#if [[ ${POST[username]} == "username" && $(sha512sum<<<${POST[password]}|sed 's/\W//g') == "${PASSWORD}" ]];then
+#echo -e "Set-Cookie:session=$(sha512sum <<<${POST[username]}|sed 's/\W//g')\r"
+#echo -e "Location: /cgi-bin/2fa.cgi\r"
+#fi
+#fi
+#if [[ ${COOKIE[session]} != ${USERNAME} ]];then 
+#if [[ ${REQUEST_URI} != "/cgi-bin/login.cgi" && ${REQUEST_URI} != "/cgi-bin/register.cgi" ]];then
+#  echo -e "Location: /cgi-bin/login.cgi\r"
+
+if [[ ${POST[login]} && ${POST[username]} && ${POST[password]} ]];then 
+  echo -e "Set-Cookie:session=temp\r"
+  COOKIE[session]=true # only way to stop bad Location setting...
+fi
+if [[ ${POST[2fa]} ]];then
+  echo -e "Set-Cookie:auth=temp\r"
+  COOKIE[auth]=true # only way to stop bad location setting...
+fi
+if [[ ${POST[logout]} ]];then
+  echo -e "Set-Cookie:session=\rSet-Cookie:auth=\r"
+  COOKIE[session]=""
+  COOKIE[auth]=""
+fi
+if [[ ${POST[register]} && ${POST[username]} && ${POST[password]} && ${POST[email]} && ${POST[pubkey]} ]];then echo stub;fi
+if [[ ${POST[account]} ]];then echo stub;fi
+
+# 3 states
+# ! session && ! auth
+# session && ! auth
+# session && auth
+#^ better outer loop and inner loop to redirect if it isnt an allowed page
+if [[ ! ${COOKIE[session]} && ${REQUEST_URI} != "/cgi-bin/login.cgi" && ${REQUEST_URI} != "/cgi-bin/register.cgi" ]];then echo -e "Location:/cgi-bin/login.cgi\r";fi
+if [[ ${COOKIE[session]} && ! ${COOKIE[auth]} && ${REQUEST_URI} != "/cgi-bin/2fa.cgi" ]];then echo -e "Location:/cgi-bin/2fa.cgi\r";fi
+
+if [[ ${COOKIE[session]} && ${COOKIE[auth]} ]];then
+if [[ ${REQUEST_URI} == "/cgi-bin/login.cgi" || ${REQUEST_URI} == "/cgi-bin/register.cgi" || ${REQUEST_URI} == "/cgi-bin/2fa.cgi" ]];then
+  echo -e "Location:/cgi-bin/index.cgi\r"
+fi
+fi
+######################################################################################################
+echo -e "domain=10.0.0.3\r"
+echo -e "path=/cgi-bin\r"
+echo -e "secure\r"
+echo -e "Content-type:text/html\n\n"
+}
+#############################################################################################################################################################################################################
+function header {
+echo "
+<!DOCTYPE html><html><head>
+<title>spareProject...</title>
+<meta name="author" content="not me">
+<meta name="application-name" content="work in progress">
+<meta name="decription" content="under construction">
+<meta name="keywords" content="terrabad">
+<meta charset='utf-8'/>
+<link rel='stylesheet' type='text/css' href='/css/default.css'>
+</head>
+<body>
+<div id='panel' class='top'>
+<a class='menu left' href='/cgi-bin/index.cgi'><h3><b>[index]</b></h3></a>
+<a class='menu left' href=/cgi-bin/database.cgi><h3><b>[database]</b></h3></a>
+<a class='menu left' href=/cgi-bin/gnupg.cgi><h3><b>[gnupg]</b></h3></a>
+<a class='menu left' href='/cgi-bin/debug.cgi'><h3><b>[debug]</b></h3></a>
+<a class='menu left' href='/cgi-bin/ftp.cgi'><h3><b>[ftp]</b></h3></a>
+<a class='menu left' href='/layout.html'><h3><b>[layout]</b></h3></a>
+<a class='menu right' href=/cgi-bin/account.cgi><h3><b>[account]</b></h3></a>
+<a class='menu right' href=#><h3><b>[$(date)]</b></h3></a>
+<a class='menu right' href=/cgi-bin/register.cgi><h3><b>[register]</b></h3></a>
+<a class='menu right' href=/cgi-bin/2fa.cgi><h3><b>[2fa]</b></h3></a>
+<a class='menu right' href='/cgi-bin/login.cgi'><h3><b>[login]</b></h3></a>
+</div>
+<div id='spacer'>a</div>
+"
+}
+function footer { echo "<div id='spacer'>a</div><div id='panel' class='bottom'>Footer</div></body></html>"; }
+#############################################################################################################################################################################################################

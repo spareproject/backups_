@@ -1,0 +1,696 @@
+2015/06/08 00:15:38 [info] 93#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/08 00:15:57 [info] 93#0: *2 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/08 00:15:57 [error] 93#0: *3 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.4:8080", referrer: "https://10.0.0.4:8080/"
+2015/06/08 00:16:48 [info] 206#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/08 00:59:45 [info] 206#0: *61 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/08 01:37:49 [info] 206#0: *119 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/08 01:41:18 [info] 206#0: *120 client 10.0.0.3 closed keepalive connection
+2015/06/08 02:55:33 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/08 02:55:36 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.4:8080", referrer: "https://10.0.0.4:8080/"
+2015/06/08 03:41:29 [info] 34#0: *54 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/08 04:29:03 [info] 34#0: *106 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/08 05:03:22 [info] 34#0: *171 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/08 05:35:19 [info] 34#0: *227 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/08 05:47:29 [info] 34#0: *228 client 10.0.0.3 closed keepalive connection
+2015/06/08 23:25:10 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/08 23:25:14 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/09 00:06:18 [info] 34#0: *54 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 00:46:59 [info] 34#0: *55 client 10.0.0.4 closed keepalive connection
+2015/06/09 00:59:48 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 01:05:33 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/09 01:50:44 [info] 34#0: *53 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 02:11:02 [info] 34#0: *54 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/index.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/09 02:11:02 [info] 34#0: *94 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 02:11:02 [info] 34#0: *96 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 02:11:02 [info] 34#0: *95 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/index.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/09 02:11:02 [info] 34#0: *98 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 02:11:02 [info] 34#0: *104 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 02:28:07 [info] 34#0: *139 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 03:07:19 [info] 34#0: *191 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 03:13:34 [info] 34#0: *192 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/index.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/09 03:13:34 [info] 34#0: *215 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 03:13:34 [info] 34#0: *216 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/index.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/09 03:13:34 [info] 34#0: *218 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 03:13:34 [info] 34#0: *219 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/index.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/09 03:13:34 [info] 34#0: *221 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 03:13:34 [info] 34#0: *222 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/index.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/09 03:13:34 [info] 34#0: *227 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 03:13:34 [info] 34#0: *228 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/index.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/09 03:13:34 [info] 34#0: *231 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 03:45:17 [info] 34#0: *284 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:22:47 [info] 34#0: *336 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:33 [info] 34#0: *337 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:33 [info] 34#0: *384 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:33 [info] 34#0: *386 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:33 [info] 34#0: *385 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:33 [info] 34#0: *388 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:33 [info] 34#0: *389 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:33 [info] 34#0: *391 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:33 [info] 34#0: *392 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:33 [info] 34#0: *394 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:33 [info] 34#0: *395 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:33 [info] 34#0: *397 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:34 [info] 34#0: *398 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:34 [info] 34#0: *400 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:34 [info] 34#0: *401 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:34 [info] 34#0: *403 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:34 [info] 34#0: *404 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:34 [info] 34#0: *406 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:34 [info] 34#0: *407 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:34 [info] 34#0: *409 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:34 [info] 34#0: *410 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:34 [info] 34#0: *412 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:34 [info] 34#0: *413 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:34 [info] 34#0: *415 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:34 [info] 34#0: *416 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:34 [info] 34#0: *418 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 04:50:34 [info] 34#0: *419 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi?get0=awdawd&get1=awd&get2=awda"
+2015/06/09 04:50:34 [info] 34#0: *421 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:03 [info] 34#0: *422 client 10.0.0.4 closed keepalive connection
+2015/06/09 05:06:17 [info] 34#0: *441 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:20 [error] 34#0: *442 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/09 05:06:43 [info] 34#0: *442 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *451 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *452 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *454 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *455 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *457 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *458 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *460 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *461 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *463 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *464 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *466 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *467 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *469 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *470 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *472 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *473 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *475 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *476 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *478 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *479 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *481 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *482 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *484 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *485 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *487 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *488 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *490 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *491 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *493 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *494 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *496 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *497 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *499 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *500 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *502 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *503 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *505 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *506 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *508 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *509 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *511 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *512 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *514 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:43 [info] 34#0: *515 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:43 [info] 34#0: *517 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *518 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *520 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *521 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *523 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *524 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *526 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *527 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *529 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *530 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *532 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *533 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *535 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *536 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *538 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *539 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *541 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *542 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *544 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *545 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *547 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *548 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *550 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *551 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *553 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *554 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *556 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *557 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *559 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *560 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *562 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *563 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *565 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *566 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *568 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *569 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *571 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *572 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *574 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:44 [info] 34#0: *575 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:44 [info] 34#0: *577 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:49 [info] 34#0: *578 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:49 [info] 34#0: *593 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:49 [info] 34#0: *594 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:49 [info] 34#0: *596 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:49 [info] 34#0: *597 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:49 [info] 34#0: *601 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:49 [info] 34#0: *602 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:49 [info] 34#0: *604 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:49 [info] 34#0: *605 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:49 [info] 34#0: *607 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:49 [info] 34#0: *608 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:49 [info] 34#0: *610 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *611 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *613 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *614 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *616 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *617 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *619 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *620 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *622 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *623 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *625 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *626 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *628 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *629 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *631 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *632 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *634 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *635 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *637 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *638 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *640 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *641 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *643 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *644 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *646 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:06:50 [info] 34#0: *647 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/09 05:06:50 [info] 34#0: *649 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 05:34:53 [info] 34#0: *650 client 10.0.0.4 closed keepalive connection
+2015/06/09 06:56:52 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 06:56:57 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/09 07:01:53 [info] 34#0: *2 client 10.0.0.4 closed keepalive connection
+2015/06/09 18:20:57 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 18:21:00 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/09 19:07:38 [info] 34#0: *53 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 19:35:07 [info] 34#0: *84 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 19:36:28 [info] 34#0: *87 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 19:44:03 [info] 34#0: *98 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 20:19:59 [info] 34#0: *163 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 20:58:41 [info] 34#0: *224 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 21:45:10 [info] 34#0: *280 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 22:05:55 [info] 34#0: *285 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 22:37:07 [info] 34#0: *346 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 22:41:55 [info] 34#0: *380 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 23:17:52 [info] 34#0: *438 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/09 23:26:30 [info] 34#0: *439 client 10.0.0.4 closed keepalive connection
+2015/06/10 00:54:23 [info] 36#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 00:54:26 [error] 36#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/10 01:38:40 [info] 36#0: *54 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 02:26:06 [info] 36#0: *107 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 03:16:59 [info] 36#0: *136 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 03:52:24 [info] 36#0: *197 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 04:11:16 [info] 36#0: *198 client 10.0.0.4 closed keepalive connection
+2015/06/10 15:20:16 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 15:20:18 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/10 16:00:16 [info] 34#0: *59 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 16:37:37 [info] 34#0: *116 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 17:24:50 [info] 34#0: *169 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 18:11:37 [info] 34#0: *222 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 18:59:12 [info] 34#0: *274 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 19:46:47 [info] 34#0: *326 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 20:34:23 [info] 34#0: *378 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 21:19:05 [info] 34#0: *430 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/10 21:58:40 [info] 34#0: *431 client 10.0.0.4 closed keepalive connection
+2015/06/11 02:08:07 [info] 36#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 02:08:10 [error] 36#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/11 02:52:46 [info] 36#0: *54 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 03:38:43 [info] 36#0: *107 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 03:52:00 [info] 36#0: *108 client 10.0.0.4 closed keepalive connection
+2015/06/11 16:07:59 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 16:08:02 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/11 16:54:06 [info] 34#0: *53 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 17:35:37 [info] 34#0: *111 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 18:20:27 [info] 34#0: *168 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 18:52:28 [info] 34#0: *220 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 19:14:59 [info] 34#0: *281 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 19:18:56 [info] 34#0: *291 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 19:51:40 [info] 34#0: *351 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 20:06:35 [info] 34#0: *359 SSL_do_handshake() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while SSL handshaking, client: 10.0.0.1, server: 0.0.0.0:8080
+2015/06/11 20:06:41 [info] 34#0: *360 client 10.0.0.1 closed keepalive connection
+2015/06/11 20:09:00 [info] 34#0: *362 client 10.0.0.1 closed keepalive connection
+2015/06/11 20:25:43 [info] 34#0: *365 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 20:34:46 [info] 34#0: *367 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 20:37:05 [info] 34#0: *381 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 20:56:41 [info] 34#0: *446 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 21:04:54 [info] 34#0: *454 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 21:19:38 [info] 34#0: *536 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 21:20:25 [info] 34#0: *638 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 21:22:55 [info] 34#0: *665 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 21:59:29 [info] 34#0: *731 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 22:41:58 [info] 34#0: *789 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/11 22:46:12 [info] 34#0: *790 client 10.0.0.4 closed keepalive connection
+2015/06/12 02:13:34 [info] 36#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 02:13:36 [error] 36#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/12 02:58:53 [info] 36#0: *55 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 03:28:58 [info] 36#0: *117 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 03:36:27 [info] 36#0: *118 client 10.0.0.4 closed keepalive connection
+2015/06/12 03:36:40 [info] 36#0: *145 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 03:38:01 [info] 36#0: *146 client 10.0.0.4 closed keepalive connection
+2015/06/12 03:38:20 [info] 36#0: *152 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 03:38:26 [info] 36#0: *153 client 10.0.0.4 closed keepalive connection
+2015/06/12 03:38:53 [info] 36#0: *157 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 03:59:07 [info] 36#0: *239 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 03:59:44 [info] 36#0: *341 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 04:01:10 [info] 36#0: *443 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 04:01:36 [info] 1343#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 04:03:51 [info] 1343#0: *103 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 04:06:39 [info] 1343#0: *204 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 04:24:11 [info] 1343#0: *286 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 04:26:01 [info] 1343#0: *388 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 04:27:28 [info] 1343#0: *395 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 04:39:41 [info] 1343#0: *464 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 04:45:11 [info] 1343#0: *465 client 10.0.0.4 closed keepalive connection
+2015/06/12 04:45:29 [info] 1343#0: *515 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 04:52:14 [info] 1343#0: *528 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 05:16:37 [info] 1343#0: *529 client 10.0.0.4 closed keepalive connection
+2015/06/12 14:41:22 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 14:41:25 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/12 14:52:34 [info] 34#0: *2 client 10.0.0.4 closed keepalive connection
+2015/06/12 14:53:26 [info] 34#0: *39 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 15:23:48 [info] 34#0: *93 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 16:10:34 [info] 34#0: *145 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 16:54:36 [info] 34#0: *197 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 17:35:36 [info] 34#0: *249 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 20:05:29 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/12 20:05:31 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/12 20:48:11 [info] 34#0: *56 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 00:40:51 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 00:40:54 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/13 00:42:20 [info] 34#0: *2 client 10.0.0.4 closed keepalive connection
+2015/06/13 00:43:54 [info] 34#0: *8 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 00:43:57 [error] 34#0: *9 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/13 01:22:28 [info] 34#0: *60 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 02:07:10 [info] 34#0: *112 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 02:50:23 [info] 34#0: *165 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 03:08:21 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 03:08:24 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/13 03:52:24 [info] 34#0: *44 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 03:52:27 [error] 34#0: *45 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/13 04:34:14 [info] 34#0: *97 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 04:54:24 [info] 34#0: *164 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 05:21:22 [info] 34#0: *229 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 05:31:08 [info] 34#0: *230 client 10.0.0.4 closed keepalive connection
+2015/06/13 13:12:59 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 13:13:02 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/13 13:55:07 [info] 34#0: *59 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 14:17:57 [info] 34#0: *86 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 14:46:40 [info] 34#0: *132 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 14:48:17 [info] 34#0: *138 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 14:50:34 [info] 34#0: *143 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 14:54:37 [info] 34#0: *154 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 14:58:27 [info] 34#0: *161 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 15:02:30 [info] 34#0: *178 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 15:06:00 [info] 34#0: *199 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 15:09:31 [info] 34#0: *211 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 15:20:15 [info] 34#0: *242 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 15:25:26 [info] 34#0: *255 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 16:00:12 [info] 34#0: *312 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 16:34:12 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 16:34:16 [info] 34#0: *2 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 16:34:18 [error] 34#0: *3 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/13 17:06:59 [info] 34#0: *70 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 17:55:12 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/13 17:55:15 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.4:8080", referrer: "https://10.0.0.4:8080/cgi-bin/login.cgi"
+2015/06/13 17:55:24 [info] 34#0: *8 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/13 18:28:31 [info] 34#0: *72 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/13 18:59:51 [info] 34#0: *73 client 10.0.0.3 closed keepalive connection
+2015/06/13 21:03:18 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 21:03:21 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/13 21:28:44 [info] 34#0: *37 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 21:32:26 [info] 34#0: *41 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 21:34:26 [info] 34#0: *49 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 21:54:22 [info] 34#0: *89 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 21:56:23 [info] 34#0: *92 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:00:28 [info] 34#0: *102 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:01:37 [info] 34#0: *103 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:01:37 [info] 34#0: *106 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:01:37 [info] 34#0: *107 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:01:42 [info] 34#0: *109 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:01:42 [info] 34#0: *110 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:02:12 [info] 34#0: *112 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:02:12 [info] 34#0: *113 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:02:37 [info] 34#0: *115 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:02:37 [info] 34#0: *116 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:02:38 [info] 34#0: *118 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:02:38 [info] 34#0: *119 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:02:40 [info] 34#0: *121 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:02:40 [info] 34#0: *122 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:02:40 [info] 34#0: *124 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:02:40 [info] 34#0: *125 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:03:42 [info] 34#0: *127 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:03:42 [info] 34#0: *128 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:03:53 [info] 34#0: *130 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:03:53 [info] 34#0: *131 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:03:54 [info] 34#0: *133 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:03:54 [info] 34#0: *134 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:04:00 [info] 34#0: *136 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:06:43 [info] 34#0: *141 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:06:43 [info] 34#0: *142 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:06:43 [info] 34#0: *145 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:06:43 [info] 34#0: *146 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:06:48 [info] 34#0: *148 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:06:48 [info] 34#0: *149 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:07:07 [info] 34#0: *151 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:07:07 [info] 34#0: *152 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:07:37 [info] 34#0: *154 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:07:37 [info] 34#0: *155 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:07:54 [info] 34#0: *157 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:09:05 [info] 34#0: *259 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:11:04 [info] 34#0: *260 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:11:06 [info] 34#0: *299 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:11:07 [info] 34#0: *300 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:11:08 [info] 34#0: *303 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:11:25 [info] 34#0: *304 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:11:26 [info] 34#0: *308 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:11:43 [info] 34#0: *309 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:11:44 [info] 34#0: *312 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:12:39 [info] 34#0: *414 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:14:45 [info] 34#0: *484 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:15:19 [info] 34#0: *485 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:15:20 [info] 34#0: *494 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:15:55 [info] 34#0: *495 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:15:56 [info] 34#0: *501 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:16:40 [info] 34#0: *502 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:17:05 [info] 34#0: *507 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:17:07 [info] 34#0: *508 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:18:07 [info] 34#0: *512 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:18:09 [info] 34#0: *513 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:18:09 [info] 34#0: *517 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:18:16 [info] 34#0: *518 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:18:17 [info] 34#0: *523 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:20:54 [info] 34#0: *531 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:22:50 [info] 34#0: *535 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:23:11 [info] 34#0: *536 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:23:13 [info] 34#0: *547 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:23:16 [info] 34#0: *548 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:24:37 [info] 34#0: *552 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:24:38 [info] 34#0: *553 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:24:39 [info] 34#0: *557 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:32:24 [info] 34#0: *560 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:32:24 [info] 34#0: *561 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:32:25 [info] 34#0: *563 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:34:05 [info] 34#0: *566 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:38:20 [info] 34#0: *569 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:39:59 [info] 34#0: *573 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:41:35 [info] 34#0: *576 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:45:38 [info] 34#0: *583 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:48:39 [info] 34#0: *586 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:48:43 [info] 34#0: *587 client 10.0.0.4 closed keepalive connection
+2015/06/13 22:48:44 [info] 34#0: *592 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:50:41 [info] 34#0: *596 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:57:54 [info] 34#0: *609 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *610 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *618 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *619 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *621 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *622 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *624 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *625 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *627 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *628 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *630 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *631 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *633 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *634 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *636 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *637 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *639 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *640 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *642 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *643 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *645 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *646 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *648 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *649 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *651 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *652 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *654 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 22:58:30 [info] 34#0: *655 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/13 22:58:30 [info] 34#0: *657 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 23:17:12 [info] 34#0: *711 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/13 23:18:27 [info] 34#0: *712 client 10.0.0.4 closed keepalive connection
+2015/06/14 15:11:09 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/14 15:11:12 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/14 15:57:28 [info] 34#0: *54 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/14 16:45:01 [info] 34#0: *106 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/14 17:30:33 [info] 34#0: *107 client 10.0.0.4 closed keepalive connection
+2015/06/14 18:58:58 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/14 19:11:16 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/14 19:57:53 [info] 34#0: *53 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/14 20:45:27 [info] 34#0: *105 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/14 21:04:38 [info] 34#0: *106 client 10.0.0.4 closed keepalive connection
+2015/06/14 23:34:22 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/14 23:34:28 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/14 23:40:25 [info] 34#0: *11 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/14 23:43:54 [info] 34#0: *20 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 00:28:11 [info] 34#0: *76 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 01:15:44 [info] 34#0: *128 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 02:03:13 [info] 34#0: *180 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 02:49:54 [info] 34#0: *232 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 03:37:27 [info] 34#0: *284 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 04:07:31 [info] 34#0: *285 client 10.0.0.4 closed keepalive connection
+2015/06/15 20:06:58 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 20:07:03 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/15 20:13:07 [info] 34#0: *2 client 10.0.0.4 closed keepalive connection
+2015/06/15 20:38:08 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 20:38:11 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/15 21:25:14 [info] 34#0: *53 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 22:11:55 [info] 34#0: *105 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 22:32:32 [info] 34#0: *106 client 10.0.0.4 closed keepalive connection
+2015/06/15 23:05:16 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/15 23:05:19 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/15 23:18:04 [info] 34#0: *33 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 00:01:00 [info] 34#0: *34 client 10.0.0.4 closed keepalive connection
+2015/06/16 13:34:02 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 13:34:05 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/16 14:20:42 [info] 34#0: *53 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 15:08:16 [info] 34#0: *105 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 15:57:13 [info] 34#0: *135 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 16:44:49 [info] 34#0: *188 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 17:32:23 [info] 34#0: *240 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 18:18:23 [info] 34#0: *292 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 19:01:39 [info] 34#0: *348 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 19:28:14 [info] 34#0: *349 client 10.0.0.4 closed keepalive connection
+2015/06/16 20:37:12 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 20:37:15 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/16 21:21:17 [info] 34#0: *55 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 22:06:23 [info] 34#0: *107 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 23:01:14 [info] 34#0: *153 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/16 23:45:10 [info] 34#0: *210 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/17 00:24:10 [error] 34#0: *211 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/17 00:25:07 [error] 34#0: *211 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/17 00:26:04 [error] 34#0: *211 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/17 00:27:01 [error] 34#0: *211 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/17 00:32:10 [info] 34#0: *262 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/17 01:19:14 [info] 34#0: *315 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/17 02:06:51 [info] 34#0: *367 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/17 05:18:29 [info] 34#0: *407 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 05:18:36 [info] 34#0: *408 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 05:18:37 [info] 34#0: *409 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 05:18:38 [info] 34#0: *410 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 05:18:38 [info] 34#0: *411 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 05:18:39 [info] 34#0: *412 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 05:18:39 [info] 34#0: *413 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 05:29:13 [info] 34#0: *414 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 05:33:23 [info] 34#0: *415 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 05:39:17 [info] 34#0: *416 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 05:39:34 [error] 34#0: *417 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.6, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080"
+2015/06/17 05:39:34 [error] 34#0: *417 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.6, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080"
+2015/06/17 05:51:14 [info] 34#0: *417 client 10.0.0.6 closed keepalive connection
+2015/06/17 07:48:45 [info] 34#0: *432 client closed connection while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/17 07:48:51 [error] 34#0: *433 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.6, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/17 07:55:12 [error] 34#0: *433 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.6, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/2fa.cgi"
+2015/06/17 07:55:18 [error] 34#0: *433 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.6, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/17 08:00:57 [error] 34#0: *433 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.6, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/register.cgi"
+2015/06/17 08:01:02 [info] 34#0: *433 client 10.0.0.6 closed keepalive connection
+2015/06/17 13:55:18 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/17 13:55:39 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/17 13:55:41 [error] 34#0: *2 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/2fa.cgi"
+2015/06/17 13:55:44 [error] 34#0: *2 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/17 13:55:47 [error] 34#0: *2 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/register.cgi"
+2015/06/17 14:01:28 [info] 34#0: *2 client 10.0.0.5 closed keepalive connection
+2015/06/17 14:36:51 [info] 34#0: *17 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/17 14:48:25 [info] 34#0: *18 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/17 14:48:30 [error] 34#0: *19 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/17 14:48:32 [error] 34#0: *19 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/2fa.cgi"
+2015/06/17 14:50:10 [error] 34#0: *19 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/17 14:50:12 [error] 34#0: *19 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/2fa.cgi"
+2015/06/17 14:50:14 [error] 34#0: *19 openat() "/home/nginx/server/template/default.css" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /default.css HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/register.cgi"
+2015/06/17 14:52:16 [info] 34#0: *19 client 10.0.0.5 closed keepalive connection
+2015/06/17 14:52:22 [info] 34#0: *37 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/17 14:52:37 [error] 34#0: *38 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/17 15:25:18 [info] 34#0: *38 client 10.0.0.4 closed keepalive connection
+2015/06/17 15:30:15 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/17 16:11:50 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/17 16:58:27 [info] 34#0: *53 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/18 02:07:02 [info] 36#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/18 02:07:06 [error] 36#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/18 02:48:52 [info] 36#0: *59 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/18 03:36:26 [info] 36#0: *111 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/18 04:24:00 [info] 36#0: *163 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/18 05:10:37 [error] 36#0: *164 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/database.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/18 05:39:51 [info] 36#0: *215 client closed connection while SSL handshaking, client: 10.0.0.1, server: 0.0.0.0:8080
+2015/06/18 05:43:36 [info] 36#0: *216 client closed connection while SSL handshaking, client: 10.0.0.1, server: 0.0.0.0:8080
+2015/06/18 05:44:17 [info] 36#0: *217 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/18 05:44:17 [error] 36#0: *218 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/database.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/18 05:44:19 [error] 36#0: *218 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi"
+2015/06/18 05:44:20 [error] 36#0: *218 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/18 05:44:24 [error] 36#0: *218 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 10.0.0.4, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/18 22:15:12 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/18 22:15:15 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/18 22:23:26 [info] 34#0: *2 client 10.0.0.4 closed keepalive connection
+2015/06/18 23:04:30 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/18 23:04:33 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/18 23:35:13 [info] 34#0: *2 client 10.0.0.4 closed keepalive connection
+2015/06/18 23:55:27 [info] 34#0: *39 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/18 23:56:21 [error] 34#0: *40 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/19 00:42:57 [info] 34#0: *91 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/19 01:05:21 [info] 34#0: *107 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/19 01:52:00 [info] 34#0: *161 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/19 02:46:00 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/19 02:46:05 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/19 02:47:14 [info] 34#0: *2 client 10.0.0.4 closed keepalive connection
+2015/06/19 14:31:23 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/19 14:31:27 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/19 15:18:02 [info] 34#0: *53 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/19 16:05:34 [info] 34#0: *105 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/19 16:53:06 [info] 34#0: *157 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/19 17:25:50 [info] 34#0: *158 client 10.0.0.4 closed keepalive connection
+2015/06/19 21:06:09 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/19 21:06:12 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/19 21:53:18 [info] 34#0: *53 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/19 22:22:05 [info] 34#0: *54 client 10.0.0.4 closed keepalive connection
+2015/06/20 14:41:54 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/20 14:41:58 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/20 15:14:53 [info] 34#0: *58 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/20 15:59:50 [info] 34#0: *112 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/20 16:47:22 [info] 34#0: *164 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/20 17:34:54 [info] 34#0: *216 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/20 18:22:07 [info] 34#0: *269 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/20 19:08:43 [info] 34#0: *321 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/20 19:50:09 [info] 34#0: *377 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/20 20:37:43 [info] 34#0: *429 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/20 21:11:43 [info] 34#0: *430 client 10.0.0.4 closed keepalive connection
+2015/06/20 23:44:17 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/20 23:44:20 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/21 00:24:21 [info] 34#0: *55 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 01:10:37 [info] 34#0: *107 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 01:57:20 [info] 34#0: *159 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 02:44:54 [info] 34#0: *211 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 03:22:04 [info] 34#0: *263 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 03:49:17 [info] 34#0: *264 client 10.0.0.4 closed keepalive connection
+2015/06/21 13:09:29 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 13:09:41 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/21 13:22:13 [info] 34#0: *2 client 10.0.0.4 closed keepalive connection
+2015/06/21 17:08:33 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 17:08:37 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/21 17:45:30 [info] 34#0: *52 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 18:18:08 [info] 34#0: *98 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 18:22:58 [info] 34#0: *107 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 18:49:58 [info] 34#0: *174 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 19:34:30 [info] 34#0: *229 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 19:47:40 [info] 34#0: *230 client 10.0.0.4 closed keepalive connection
+2015/06/21 19:49:27 [info] 34#0: *246 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 19:49:28 [info] 34#0: *247 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 19:49:30 [error] 34#0: *248 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/21 20:21:52 [info] 34#0: *314 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 20:37:55 [info] 34#0: *315 client 10.0.0.4 closed keepalive connection
+2015/06/21 22:00:54 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 22:00:57 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/21 22:01:42 [info] 34#0: *2 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/gnupg.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/21 22:01:42 [info] 34#0: *7 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 22:01:42 [info] 34#0: *8 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.4, server: template, request: "GET /cgi-bin/debug.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/database.cgi"
+2015/06/21 22:01:42 [info] 34#0: *10 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 22:36:36 [info] 34#0: *75 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 23:22:32 [info] 34#0: *128 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/21 23:56:02 [info] 34#0: *193 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 00:36:59 [info] 34#0: *252 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 01:00:32 [info] 34#0: *331 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 01:39:36 [info] 34#0: *389 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 02:24:47 [info] 34#0: *444 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 03:12:20 [info] 34#0: *496 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 03:33:35 [info] 34#0: *520 client closed connection while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/22 03:56:31 [info] 34#0: *545 client closed connection while waiting for request, client: 10.0.0.6, server: 0.0.0.0:8080
+2015/06/22 03:59:53 [info] 34#0: *550 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 04:21:36 [info] 34#0: *561 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 04:50:55 [info] 34#0: *562 client 10.0.0.4 closed keepalive connection
+2015/06/22 14:38:03 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 14:38:06 [error] 34#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/index.cgi"
+2015/06/22 14:40:39 [error] 34#0: *2 openat() "/home/nginx/server/template/home/user" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /home/user HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/debug.cgi"
+2015/06/22 15:17:31 [info] 34#0: *61 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 15:52:51 [info] 34#0: *126 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 16:27:19 [info] 34#0: *193 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/22 16:43:11 [info] 34#0: *194 client 10.0.0.4 closed keepalive connection
+2015/06/22 17:59:18 [info] 34#0: *1 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 17:59:33 [info] 34#0: *2 SSL_read() failed (SSL: error:14094418:SSL routines:ssl3_read_bytes:tlsv1 alert unknown ca:SSL alert number 48) while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 17:59:37 [error] 34#0: *3 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080"
+2015/06/22 17:59:37 [error] 34#0: *3 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080"
+2015/06/22 17:59:40 [info] 34#0: *5 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 17:59:44 [error] 34#0: *6 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/22 18:00:17 [info] 34#0: *15 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:00:19 [info] 34#0: *16 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:00:38 [error] 34#0: *19 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/22 18:01:00 [error] 34#0: *20 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.5, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/"
+2015/06/22 18:01:35 [info] 34#0: *17 client 10.0.0.5 closed keepalive connection
+2015/06/22 18:02:07 [info] 34#0: *3 client 10.0.0.5 closed keepalive connection
+2015/06/22 18:02:57 [info] 34#0: *45 client 10.0.0.5 closed keepalive connection
+2015/06/22 18:03:54 [info] 34#0: *49 client 10.0.0.5 closed keepalive connection
+2015/06/22 18:04:51 [info] 34#0: *53 client 10.0.0.5 closed keepalive connection
+2015/06/22 18:12:03 [info] 34#0: *59 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:14:25 [error] 34#0: *60 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 10.0.0.5, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/22 18:14:30 [error] 34#0: *60 upstream prematurely closed FastCGI stdout while reading response header from upstream, client: 10.0.0.5, server: template, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/22 18:39:06 [info] 34#0: *130 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:45:46 [info] 34#0: *151 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:50:36 [info] 34#0: *158 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:53:43 [info] 34#0: *163 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:53:53 [info] 34#0: *265 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:56:46 [info] 34#0: *281 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:59:23 [info] 34#0: *297 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:59:28 [info] 34#0: *301 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:59:52 [info] 34#0: *402 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 18:59:52 [info] 34#0: *403 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.5, server: template, request: "GET /cgi-bin/login.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/22 18:59:52 [info] 34#0: *407 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:00:12 [info] 34#0: *509 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:04:48 [info] 34#0: *571 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:08:57 [info] 34#0: *580 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:12:41 [info] 34#0: *605 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:15:45 [info] 34#0: *620 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:35:59 [info] 34#0: *634 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:48:01 [info] 34#0: *655 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:49:59 [info] 34#0: *658 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:54:14 [info] 34#0: *669 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:55:28 [info] 34#0: *670 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.5, server: template, request: "GET /cgi-bin/2fa.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.3:8080"
+2015/06/22 19:55:28 [info] 34#0: *762 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/22 19:59:52 [info] 34#0: *837 client closed connection while waiting for request, client: 10.0.0.5, server: 0.0.0.0:8080
+2015/06/24 01:25:24 [info] 37#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/24 01:25:27 [error] 37#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/24 01:25:37 [info] 37#0: *11 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/24 15:16:59 [info] 35#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/24 15:17:02 [error] 35#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/25 23:34:17 [info] 38#0: *1 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/25 23:34:20 [error] 38#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.3, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.4:8080", referrer: "https://10.0.0.4:8080/cgi-bin/login.cgi"
+2015/06/25 23:34:29 [info] 38#0: *9 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/25 23:34:39 [info] 38#0: *10 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 10.0.0.3, server: template, request: "GET /cgi-bin/gnupg.cgi HTTP/1.1", upstream: "fastcgi://unix:/home/nginx/fcgiwrap.sock:", host: "10.0.0.4:8080", referrer: "https://10.0.0.4:8080/cgi-bin/ftp.cgi"
+2015/06/25 23:34:39 [info] 38#0: *23 client closed connection while waiting for request, client: 10.0.0.3, server: 0.0.0.0:8080
+2015/06/26 18:20:21 [info] 35#0: *1 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/26 18:20:25 [error] 35#0: *2 openat() "/home/nginx/server/template/favicon.ico" failed (2: No such file or directory), client: 10.0.0.4, server: template, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.3:8080", referrer: "https://10.0.0.3:8080/cgi-bin/login.cgi"
+2015/06/26 18:23:54 [info] 35#0: *9 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080
+2015/06/26 18:27:37 [info] 35#0: *12 client closed connection while waiting for request, client: 10.0.0.4, server: 0.0.0.0:8080

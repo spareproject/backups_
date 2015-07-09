@@ -1,0 +1,27 @@
+#!/bin/env bash
+##########################################################################################################################################################################################
+function login_fieldset {
+echo "
+<fieldset><legend><h3><b>login</b></h3></legend>
+<form action='/cgi-bin/index.cgi' method='post'><table>
+<tr><td><input type='text' name='username' value='username'></td></tr>
+<tr><td><input type='password' name='password'></td><td><input type='submit' name='login' value='login'></td></tr>
+</table></form>
+</fieldset>
+"
+}
+function register_fieldset {
+echo "
+<fieldset><legend><h3><b>register</b></h3></legend>
+<form action='/cgi-bin/debug.cgi' method='post'><table>
+<tr><td>username</td><td><input type='text' name='username'></td></tr>
+<tr><td>password</td><td><input type='text' name='password'></td><td><input type='text' name='verify'></td></tr>
+<tr><td>email</td><td><input type='text' name='email'></td></tr>
+<tr><td>pubkey</td><td><input type='text' name='pubkey'></td></tr>
+<tr><td></td><td><input type='submit' name='register'></td></tr>
+<tr><td></td></tr>
+</table></form>
+</fieldset>
+"
+}
+##########################################################################################################################################################################################

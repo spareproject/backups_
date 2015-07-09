@@ -1,0 +1,114 @@
+#!/bin/env bash
+##########################################################################################################################################################################################
+function input_test {
+echo "
+<fieldset><legend><h3><b>$FUNCNAME</b></h3></legend>
+
+<h3><b>get && post</b></h3>
+<table>
+<tr><form action='/cgi-bin/debug.cgi' method='get'><td><input type='text' name='get' value="get"></td><td><input type='submit'></td></form></tr>
+<tr><form action='/cgi-bin/debug.cgi' method='post'><td><input type='text' name='post' value='post' ></td><td><input type='submit'></td></form></tr>
+</table>
+<br>
+
+<h3><b>Logout</b></h3>
+<table>
+<tr><td><form action='/cgi-bin/debug.cgi' method='post'><input type='submit' name='logout' value='logout'></form></td></tr>
+</table>
+<br>
+
+<h3><b>file upload</b></h3>
+<form action='/cgi-bin/debug.cgi' method='post' enctype=multipart/form-data><table>
+<tr><td><input type=file name=file></td><td><input type=submit value=upload name=upload></td></tr>
+</table></form>
+</br>
+<h3><b>enctype</b></h3>
+application/x-www-form-urlencoded
+<form action='/cgi-bin/debug.cgi' method='post' enctype='application/x-www-form-urlencoded'>
+<table>
+<tr>
+<td><input type='text' name='application/x-www-form-urlencoded' value='application/x-www-form-urlencoded' </td>
+<td><input type='submit' value='submit' </td>
+</tr>
+</table>
+</form>
+
+multipart/form-data
+<form action='/cgi-bin/debug.cgi' method='post' enctype='multipart/form-data'>
+<table>
+<tr>
+<td><input type='text' name='multipart/form-data' value='multipart/form-data'></td>
+<td><input type='submit' value='submit' </td>
+</tr>
+</table>
+</form>
+
+text/plain
+<form action='/cgi-bin/debug.cgi' method='post' enctype='text/plain'>
+<table>
+<tr>
+<td><input type='text' name='text/plain' value='text/plain'> </td>
+<td><input type='submit' value='submit' </td>
+</tr>
+</table>
+</form>
+
+</fieldset>
+"
+}
+function rng {
+  echo "<fieldset><legend><h3><b>rng</b></h3></legend><pre>"
+  cat /dev/random | tr -cd 'a-zA-Z0-9' | fold -w 64 | head -n 1; 
+  echo "</pre></fieldset>"
+}
+# should be functions for the actual calls and input test to execute them all to test everything with on / off toggle for debug_output
+##########################################################################################################################################################################################
+function output {
+echo "<fieldset><legend><h3><b>${FUNCNAME}</b></h3></legend>"
+if [[ ${TEMP} ]];then
+  echo "<br>TESTING:$TESTING</br>"
+  echo ${TEMP}
+fi
+
+if [[ $FFS ]];then echo "FFS:${FFS[@]}";fi
+
+if [[ ${TESTING[@]} ]];then
+  for i in ${TESTING[@]};do
+    echo ${i}
+  done
+fi
+
+if [[ ! ${#POST[@]} -eq 0 ]];then echo -n "post: ";for i in ${!POST[@]};do echo "[${i}:${POST[${i}]}]";done;fi
+if [[ ! ${#GET[@]} -eq 0 ]];then echo -n "get: ";for i in ${!GET[@]};do echo "[${i}:${GET[${i}]}]";done;fi
+
+echo "</fieldset>"
+}
+##########################################################################################################################################################################################
+function fcgiparams_fieldset {
+echo "
+<fieldset><legend><h3><b>$FUNCNAME</b></h3></legend>
+<table>
+<tr><td>HTTP_COOKIE</td><td>${HTTP_COOKIE}</td></tr>
+<tr><td>QUERY_STRING</td><td>$QUERY_STRING</td></tr>
+<tr><td>REQUEST_METHOD</td><td>$REQUEST_METHOD</td></tr>
+<tr><td>CONTENT_TYPE</td><td>$CONTENT_TYPE</td></tr>
+<tr><td>CONTENT_LENGTH</td><td>$CONTENT_LENGTH</td></tr>
+<tr><td>SCRIPT_NAME</td><td>$SCRIPT_NAME</td></tr>
+<tr><td>REQUEST_URI</td><td>$REQUEST_URI</td></tr>
+<tr><td>DOCUMENT_URI</td><td>$DOCUMENT_URI</td></tr>
+<tr><td>DOCUMENT_ROOT</td><td>$DOCUMENT_ROOT</td></tr>
+<tr><td>SERVER_PROTOCOL</td><td>$SERVER_PROTOCOL</td></tr>
+<tr><td>HTTPS</td><td>$HTTPS</td></tr>
+<tr><td>GATEWAY_INTERFACE</td><td>$GATEWAY_INTERFACE</td></tr>
+<tr><td>SERVER_SOFTWARE</td><td>$SERVER_SOFTWARE</td></tr>
+<tr><td>REMOTE_ADDR</td><td>$REMOTE_ADDR</td></tr>
+<tr><td>REMOTE_PORT</td><td>$REMOTE_PORT</td></tr>
+<tr><td>SERVER_ADDR</td><td>$SERVER_ADDR</td></tr>
+<tr><td>SERVER_PORT</td><td>$SERVER_PORT</td></tr>
+<tr><td>SERVER_NAME</td><td>$SERVER_NAME</td></tr>
+<tr><td>REDIRECT_STATUS</td><td>$REDIRECT_STATUS</td></tr>
+</table>
+</fieldset>
+"
+}
+##########################################################################################################################################################################################

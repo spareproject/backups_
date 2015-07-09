@@ -1,0 +1,32 @@
+#!/bin/env bash
+#############################################################################################################################################################################################################
+sqlite="/home/nginx/server/template/database/webserver.sqlite"
+#############################################################################################################################################################################################################
+function testing {
+
+echo "<fieldset><legend><h1><b></b></h1></legend><pre>"
+sqlite3 $sqlite <<< ".schema"
+echo "</pre></fieldset>"
+
+#IFS="|";for i in $(sqlite3 ${sqlite} <<< "select username,password,email,pubkey,fingerprint,last_successful,last_failed,attempts,flag from user;");do echo ${i};done
+echo "<fieldset><legend><h1><b>user</b></h1></legend><pre>"
+sqlite3 $sqlite <<< "
+.mode column
+.headers on
+select username,email,fingerprint from user;"
+echo "</pre></fieldset>"
+
+
+echo "<fieldset><legend><h1><b>session</b></h1></legend><pre>"
+sqlite3 ${sqlite} <<< "
+.mode column
+.headers on
+select username,session from session;
+"
+echo "</pre></fieldset>"
+
+}
+#############################################################################################################################################################################################################
+
+#############################################################################################################################################################################################################
+
