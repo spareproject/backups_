@@ -1,0 +1,10 @@
+%echo Generating host gnupg key
+Key-Type: rsa
+Key-Length: 4096
+Key-Usage: sign
+Name-Real:root
+Name-Email:root@archiso
+Expire-Date: 0
+%commit
+%echo done
+

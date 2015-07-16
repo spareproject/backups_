@@ -1,0 +1,10 @@
+%echo Generating host gnupg key
+Key-Type: default
+Key-Length: 4096
+Subkey-Type: default
+Subkey-Length: 4096
+Name-Real:internal
+Name-Email:internal@archiso
+Expire-Date: 0
+%commit
+%echo done

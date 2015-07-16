@@ -1,0 +1,7 @@
+#!/bin/env bash
+
+echo "first test"
+cat /dev/random | tr '[\000-\011\013-\037\177-\377]' '.' | fold -w 1024 | head -n 1
+
+echo "second test"
+cat /dev/random | tr '[\000--\037\177-\377]' '.' | fold -w 1024 | head -n 1
