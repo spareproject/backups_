@@ -1,0 +1,33 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub  rsa4096/0x6B7608FF9FC06307 2015-07-14
+      Key fingerprint = 3A4D A6D7 7DAA 314B 4261  5814 6B76 08FF 9FC0 6307
+uid                            internal <internal@archiso>
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before making use of this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+Comment: This is a revocation certificate
+
+iQIfBCABCgAJBQJVpF55Ah0AAAoJEGt2CP+fwGMHURUP/1VkcJn4S5j+BBg34Kvd
+C5DDPPQCY8iiSUVU/KOC47gn22kPl42HBY3yO5CJySIYTR26nOjianrK0chqxQPT
+p4u4nFK0w71LSlrkTYIl0kcbvRgCUF/+SNg3Hvin6T4MasDkr4fKBA9qZ0TxjKwp
+HwrdkElWt/IS+gUdT71haaO4Z24HxeO9CL99DqACiQ71kfnAt//WhYPbnn30rjUU
+ZAQ3fhbCK6ctTrn8i9YIZoXL4FexBrWIa09qOmfDLQrgX3k1NKysWhCbJfKt+88j
+jr4zvAGIoU3gThPnQOoCezuT9w6n3tkceVtVWl8/dw4UsMjSOG2QQ/Y/J5d5uXPF
+PAIMXd7xnF+3CoNc1Dzt1mxabz2I/MVDnXkS7o1MAmZyNap7CJd5fWFhFD8GCGv1
+CLXySEGd8HkePIvK/35HmIwsHR6yPSYzGhgnTjUIXWQ5asrPlNacCy/crKk6bRMQ
+daJLbYhkyCah1EBmtVxyutk8zCJppIQ1xGeQZZc8/iOzWjVLte418kNllf1qt/nE
+4Vt1QXuLI+WEGMkjf3oJ6Sif4xoxBClYjwY9NlLR5hziATndfT3bC7cUtNOs0uqr
+jzG9GlznQehj7h4J3aPr11QEeLyYmGFM2BqYGRXMjvobDh6yHM0bsUhj+WeiyS9G
+Fi0WWEd65PHRLB+b7ll2eNUi
+=hH9M
+-----END PGP PUBLIC KEY BLOCK-----

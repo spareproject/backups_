@@ -1,0 +1,16 @@
+ACTION=="add",
+SUBSYSTEM=="scsi",
+ATTR{idVendor}=="26bd",
+ATTR{idProduct}=="9917",
+ATTR{serial}=="07014610ACFC9978",
+SYMLINK+="gnupg%n"
+OWNER="user"
+
+#SYMLINK+="gnupg",
+#OWNER="user"
+#ACTION=="remove",
+#SUBSYSTEM=="scsi",
+#ATTR{idVendor}=="26bd",
+#ATTR{idProduct}=="9917",
+#ATTR{serial}=="07014610ACFC9978",
+#RUN+="/mnt/gnupg_fu/remove.sh"

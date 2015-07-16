@@ -1,0 +1,47 @@
+
+current pin 679913
+
+^ if the script doesnt detach sleep + commands then closing terminal fucks up clean up
+assuming the gnupg0 link was hax to get symlinks to actually match sdXZY devices ? if it disapears it doesnt write anything so 
+
+right so lastish thing... probably about the 17,000th time ive said that... : /
+
+sleep rm all the things & < - closing terminal kills background
+
+needs ( ( commands) & ) & ?
+dumping ( commands & ) & backgrounds the last command and fucks the sleep dep ie insta delted /tmp
+
+
+right so udev is sucky...
+execute then plug is... versatile 
+
+totally fucked myself over with the whole random uid:gid
+^ oneshot call... do a tmp unlock or call and dir dive /tmp/mount... < - script some path foo to setup atleast quick access to importing + whatever 
+
+basically no 222 no easy dev to do anything 
+
+/mnt/
+  luks
+  rawfs
+  mount
+
++
+
+hotplug
+
+dump default paths to wrapper foo then ./anything name 
+auto append to path 
+./stats - dump number of rawfs number of keys match keys to rawfs dump individual sizes + combined / total space 
+
+^ /mnt/mount - everything that gets a call cleans up empty dirs.... possibly going to fuck everything up miss matched greps == bye bye raw image
+
+mount | grep "/mnt/mount/name " trailing space fixed loads of other problems 
+
+functions to setup usbs are pretty much a no go...
+
+tune2fs -l ${DEV} | grep Block
+block count * block size - 100 erm dd /dev/sdd2 starts 0-end of partition
+
+
+
+

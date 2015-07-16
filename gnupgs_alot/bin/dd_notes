@@ -1,0 +1,11 @@
+#!/bin/env bash
+
+#gpg --homedir gnupg/ --passphrase-fd 0 --gen-key --batch batch.internal <<< $(dd if=
+
+if [[ ${1} ]];then
+
+hexdump -C  <<< $(dd if=/dev/sdd bs=1 count=16023 skip=${1})
+
+else
+echo "fuck off"
+fi

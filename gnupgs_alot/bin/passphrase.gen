@@ -1,0 +1,4 @@
+#!/bin/env bash
+cat /dev/random | tr -cd 'a-zA-Z0-9' | fold -w 100 | head -n 1 > ./passphrase
+dd if=/dev/random of=./passphrase_random bs=1 count=100 
+#cat /dev/random | tr -cd 'a-zA-Z0-9' | fold -w 97 | head -n 1 > ./passphrase
