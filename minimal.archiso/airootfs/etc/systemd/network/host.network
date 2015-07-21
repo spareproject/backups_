@@ -1,6 +1,0 @@
-[Match]
-Name=host
-[Network]
-DHCP=both
-IPForward=yes
-IPMasquerade=yes

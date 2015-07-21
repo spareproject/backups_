@@ -1,9 +1,0 @@
-[Unit]
-Description=tmux
-
-[Service]
-User=user
-ExecStart=/usr/bin/tmux new-session -s tmux_rtorrent -n rtorrent -d rtorrent
-
-
-

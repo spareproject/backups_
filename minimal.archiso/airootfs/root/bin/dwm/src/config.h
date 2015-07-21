@@ -1,1 +1,0 @@
-/mnt/users/admin/dwm/config.h
